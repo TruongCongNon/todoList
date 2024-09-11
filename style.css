@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #1f242d;
+
+}
+
+.container {
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+}
+
+#new-task {
+    background-color: #323946;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+#new-task input {
+    width: 70%;
+    height: 45px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    border: 2px solid #828282e2;
+    padding: 12px;
+    background-color: azure;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    transition: 0.5 ease;
+    -webkit-transition: 0.7s ease;
+    color: #ffffffe2;
+}
+
+#new-task input:focus {
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #00fbff;
+    border-radius: 0;
+
+}
+
+#new-task button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #00fbff;
+    box-shadow: 0 0 1rem #00fbff;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5 ease;
+    font-weight: 500;
+    color: #323946;
+    -webkit-transition: 0.5s ease;
+}
+
+#new-task button:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
+#task {
+    background-color: #323946;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: relative;
+}
+
+.task {
+    background-color: #ffffffe2;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #00fbff;
+    background-color: transparent;
+    color: #ffffffe2;
+}
+
+.task span {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.task button {
+    background-color: #00fbff;
+    color: #323946;
+    width: 40px;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.task i {
+    color: #323946;
+    font-size: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+    cursor: pointer;
+    color: #00fbff;
+}
