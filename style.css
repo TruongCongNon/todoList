@@ -41,7 +41,7 @@ body {
     border-radius: 5px;
     transition: 0.5 ease;
     -webkit-transition: 0.7s ease;
-    color: #ffffffe2;
+    color: #1f242d;
 }
 
 #new-task input:focus {
@@ -50,6 +50,7 @@ body {
     background: transparent;
     border-bottom: 2px solid #00fbff;
     border-radius: 0;
+    color: #ffffffe2;
 
 }
 
